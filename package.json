@@ -1,0 +1,21 @@
+{
+  "name": "yelp-fusion-app",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js --BUSINESS_TYPE='ice cream' --CITY='Alpharetta'",
+    "start-dev": "nodemon index.js --BUSINESS_TYPE='ice cream' --CITY='Alpharetta'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Suyog Nerkar",
+  "license": "MIT",
+  "dependencies": {
+    "config": "^3.3.6",
+    "minimist": "^1.2.5",
+    "yelp-fusion": "^2.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
